@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@200&family=Luxurious+Roman&family=Racing+Sans+One&family=Rubik+Glitch&display=swap');
+
+#root {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navigation {
+    max-height:150px;
+    padding:0;
+    margin: 0;
+}
+
+
+.header {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('./arcade.jpg');
+    background-size: cover;
+    height: 160px;
+    font-family: 'Rubik Glitch', cursive;
+}
+
+.text {
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    justify-content: center;
+    position: relative;
+    padding:60px;
+    top:55px;
+    right:30px;
+}
+
+.title {
+    font-size: 3.5em;
+    position:relative;
+    bottom:175px;
+    left:20px;
+    color:#fff;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.title_text {
+    color:#272323;
+    font-family: 'Luxurious Roman', cursive;
+    position:relative;
+    bottom:190px;
+    left:-590px;
+    text-align: center;
+    font-family: 'K2D', sans-serif;
+    color:#fff;
+    font-size: 1.2em;
+} 
+
+.content {
+    background-color: black;
+    height:100vh;
+}
+
+.footer {
+    height:100px;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+    width:10%;
+    font-size: 2em;
+}
+
+
+

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=K2D:wght@200&family=Luxurious+Roman&family=Racing+Sans+One&family=Rubik+Glitch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D:wght@200&family=Luxurious+Roman&family=Racing+Sans+One&family=Raleway:wght@300&family=Rubik+Glitch&display=swap');
 
 #root {
     margin:0;
@@ -8,8 +8,14 @@
 
 .navigation {
     max-height:150px;
-    padding:0;
-    margin: 0;
+    width:100%;
+}
+
+.nav_item {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
 }
 
 
@@ -21,17 +27,18 @@
     background-image: url('./arcade.jpg');
     background-size: cover;
     height: 160px;
-    font-family: 'Rubik Glitch', cursive;
+    width: 100%;
+    font-family:'Raleway', sans-serif;
 }
 
 .text {
     color:#fff;
     text-decoration: none;
-    font-size: 1.5em;
+    font-size: 1.2em;
     justify-content: center;
     position: relative;
-    padding:60px;
-    top:55px;
+    padding:25px;
+    top:50px;
     right:30px;
 }
 
@@ -42,6 +49,7 @@
     left:20px;
     color:#fff;
     font-family: 'Luxurious Roman', cursive;
+    width:50%;
 }
 
 .title_text {
@@ -57,7 +65,8 @@
 } 
 
 .content {
-    background-color: black;
+    background-image: url('./background2.jpg');
+    width:100%;
     height:100vh;
 }
 
@@ -68,9 +77,32 @@
 .footerContent {
     display: flex;
     justify-content: space-between;
-    width:10%;
-    font-size: 2em;
+    width:100%;
+    height:10vh;
+    background-color: #272a2d;
 }
+
+.rightsAdnotations {
+    font-size: 1.1em;
+    color:#fff;
+}
+
+.socialsIcons {
+    font-size: 1.5em;
+    position:relative;
+    right:30px;
+}
+
+.basimImage {
+    border-radius: 12px;
+    width:30%;
+}
+
+.aboutMirage {
+    color:#fff;
+}
+
+
 
 
 

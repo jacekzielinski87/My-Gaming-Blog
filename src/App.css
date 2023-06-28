@@ -8,38 +8,31 @@
 }
 
 .navigation {
-    max-height:150px;
-    width:100%;
+    width:35%;
 }
 
 .nav_item {
-    list-style: none;
     display: flex;
+    position: relative;
+    left:1000px;
+    top:50px;
     justify-content: space-between;
-    width:50%;
-    color:#fff;
-    text-decoration: none;
+    list-style: none;
 }
 
-.link {
-    font-size: 1.5em;
+.links {
     color:#fff;
     text-decoration: none;
+    font-size: 1.5em;
 }
 
 
 
 
 .header {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    justify-content: space-between;
     background-image: url('./arcade.jpg');
     background-size: cover;
-    height: 150px;
-    width: 100%;
-    font-family:'Raleway', sans-serif;
+    height: 100px;
 }
 
 

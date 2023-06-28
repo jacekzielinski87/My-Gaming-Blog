@@ -8,7 +8,7 @@ const Content = () => {
         <section className="mainContent">
             <article className="articleItem">
                 <img className="basimImage" src={Basim}></img>
-                <p className="aboutMirage">Co wiemy o Assasin's Creed Mirage ?</p>
+                <a className="aboutMirage" href="">Co wiemy o Assasin's Creed Mirage ?</a>
             </article>
         </section>
       </div>

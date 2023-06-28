@@ -1,18 +1,18 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
+
 
 
 const Header = () => {
   return (
-    <header>
+    <header className='header'>
       <nav className='navigation'>
-        <ul className='header'>
-            <li className='nav_item'><a className='text' href="/Newsy">STRONA GŁÓWNA</a></li>
-            <li className='nav_item'><a className='text' href="/Recenzje">RECENZJE</a></li>
-            <li className='nav_item'><a className='text'href="/O mnie">O MNIE</a></li>
-            <li className='nav_item'><a className='text'href="/Kontakt">KATEGORIE</a></li>
+        <ul className='nav_item'>
+          <li className='links'><Link className='link' to="/">O mnie</Link></li>
+          <li className='links'><Link className='link' to="/Kategorie">Kategorie</Link></li>
+          <li className='links'><Link className='link' to="/Wywiady">Wywiady</Link></li>
+          <li className='links'><Link className='link' to="/Kontakt">Kontakt</Link></li>
         </ul>
-        <h1 className='title'>Gandi Geek</h1>
-        <h2 className='title_text'>Fan gamingu oraz popkultury</h2>
       </nav>
     </header>
   );

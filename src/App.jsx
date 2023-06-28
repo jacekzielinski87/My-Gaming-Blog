@@ -1,9 +1,15 @@
-import React from "react"
+import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Header from "./components/Header";
-import Content from "./components/Content";
-import Footer from "./components/Footer";
+import {Routes, Route } from 'react-router-dom';
+import About from './pages/About';
+import Kategorie from './pages/Kategorie';
+import Wywiady from './pages/Wywiady';
+import Kontakt from "./pages/Kontakt";
+
+
+
 
 
 
@@ -12,10 +18,14 @@ function App() {
   return (
     <>
       <Header></Header>
-      <Content></Content>
-      
+        <Routes>
+          <Route path='/'element={<About/>}/>
+          <Route path='/Kategorie' element={<Kategorie/>}/>
+          <Route path='/Wywiady' element={<Wywiady/>}/>
+          <Route path='/Kontakt' element={<Kontakt/>}/>
+        </Routes>
     </>
-  )
+    );
 }
 
-export default App
+export default App;
